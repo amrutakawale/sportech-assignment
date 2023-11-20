@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import GaugeChart from 'react-gauge-chart';
-
+import React, { useState } from "react";
+import GaugeChart from "react-gauge-chart";
 
 const ChartTwo: React.FC = () => {
   return (
-    <div className="max-h-[98%] col-span-12 rounded-lg border border-stroke bg-[#F2EAE5] py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4">
+    <div className="max-h-[95%] col-span-12 rounded-lg border border-stroke bg-[#F2EAE5] py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark xl:col-span-4">
       <div className="flex flex-wrap items-start justify-between gap-3 sm:flex-nowrap">
         <div className="flex w-full flex-wrap gap-3 sm:gap-5">
           <div className="relative text-[#000606] text-lg font-bold mt-2.5">
@@ -42,19 +41,19 @@ const ChartTwo: React.FC = () => {
       <div className="mt-4 dark:border-gray-700 text-[#060606]">
         <div className="flex flex-row list-none flex-wrap border-b-0 pl-0 justify-between">
           <GaugeChart
-            className="min-h-[80%] sm:h-46 mb-6"
+            className="min-h-[70%] sm:h-46 mb-6"
             id="gauge-chart5"
             nrOfLevels={420}
             arcsLength={[0.3, 0.5, 0.2]}
-            colors={['#1A932E', '#E5AE21', '#e65f2b']}
+            colors={["#1A932E", "#E5AE21", "#e65f2b"]}
             percent={0.72}
             arcPadding={0.02}
-            textColor={'#060606'}
-            needleColor={'#F2EAE5'}
+            textColor={"#060606"}
+            needleColor={"#F2EAE5"}
             needleBaseColor="#F2EAE5"
           />
           <div className="container mx-auto">
-            <div className="flex justify-between sm:mt-10 sm:min-h-[150px] min-h-[100px] items-end">
+            <div className="flex justify-between sm:mt-10 sm:min-h-[120px] min-h-[70px] mb-2 items-end">
               <div className="w-96 justify-between items-start flex">
                 <div className="flex-col justify-start items-start gap-1.5 inline-flex">
                   <div className="text-[#060606] text-xl">95</div>
