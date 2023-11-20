@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Nelsa web developement",
+      "projectManager": "Om prakash sao",
+      "dueDate": "May 25, 2023",
+      "status": "Completed",
+      "progress": 100,
+      "color": "#1A932E",
+      "bgColor": "#1A932E2E"
+    },
+    {
+      "id": 2,
+      "name": "Datascale AI app",
+      "projectManager": "Neilsan mando",
+      "dueDate": "Jun 20, 2023",
+      "status": "Delayed",
+      "progress": 35,
+      "color": "#DFA510",
+      "bgColor":"#E2B1332E"
+    },
+    {
+      "id": 3,
+      "name": "Media channel branding",
+      "projectManager": "Tiruvelly priya",
+      "dueDate": "July 13, 2023",
+      "status": "At risk",
+      "progress": 68,
+      "color": "#EE201C",
+      "bgColor": "#EE201C2E"
+    },
+    {
+      "id": 4,
+      "name": "Corlax iOS app develpoement",
+      "projectManager": "Matte hannery",
+      "dueDate": "Dec 20, 2023",
+      "status": "Completed",
+      "progress": 100,
+      "color": "#1A932E",
+      "bgColor": "#1A932E2E"
+    },
+    {
+      "id": 5,
+      "name": "Website builder developement",
+      "projectManager": "Sukumar rao",
+      "dueDate": "Mar 15, 2024",
+      "status": "On going",
+      "progress": 50,
+      "color": "#e65f2b",
+      "bgColor": "#E65F2B2E"
+    }
+  ],
+  "tasks":[
+    {
+      "id":1,
+      "text":"Create a user flow of social application design",
+      "status":"Approved",
+      "color":"#1A932E",
+      "bgColor":"#1a932e2e",
+      "filled": true
+    },
+    {
+      "id": 2,
+      "text": "Create a user flow of social application design",
+      "status": "In review",
+      "color": "#EE201C",
+      "bgColor": "#EE201C2E",
+      "filled": true
+    },
+    {
+      "id": 3,
+      "text": "Landing page design for Fintech project of singapore",
+      "status": "In review",
+      "color": "#EE201C",
+      "bgColor": "#EE201C2E",
+      "filled": true
+    },
+    {
+      "id": 4,
+      "text": "Interactive prototype for app screens of deltamine project",
+      "status": "On going",
+      "color": "#e65f2b",
+      "bgColor": "#E65F2B2E",
+      "filled": false
+    },
+    {
+      "id": 5,
+      "text": "Interactive prototype for app screens of deltamine project",
+      "status": "Approved",
+      "color": "#1A932E",
+      "bgColor": "#1A932E2E",
+      "filled": true
+    }
+  ]
+}
